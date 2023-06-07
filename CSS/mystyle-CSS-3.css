@@ -1,0 +1,46 @@
+h2{
+    color: darkcyan;
+    font-size: 50px;
+
+}
+p{
+    color: black;
+    font-size: 20px;
+    background-color:whitesmoke;
+
+    text-align: center;
+    margin: 10px
+    ;
+    max-height:  100px ;
+
+    /* overflow:  hidden; */
+    
+    overflow: auto !important;
+
+    /* overflow: scroll; */
+
+    /* overflow-y: scroll; */
+    overflow: default;
+
+}
+h1{
+    border: solid black 2px;
+}
+*{
+    background-color: #ccc;
+}
+.Heading{
+    background-color: aqua;
+    color: white;
+
+    /* text-decoration-color: white; */
+    /* border: solid #111; */
+    padding: 20px;
+    /* padding-top: 100px; */
+    padding: 40px 60px;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 60px;
+
+}
+
