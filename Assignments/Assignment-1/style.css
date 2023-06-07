@@ -1,0 +1,84 @@
+
+* {
+  font-size: 1.2rem;
+  margin: 0;
+  padding: 0;
+  color: #000;
+  box-sizing: border-box;
+  font-family: "Baloo Bhai 2", cursive;
+}
+.nav {
+  background-color: rgb(189, 28, 28);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 12px;
+}
+.nav .logo {
+  padding: 6px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo h1 {
+  color: #fff;
+  padding: 0 0.5rem;
+}
+.account {
+  /* padding-left :35rem; */
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 16rem;
+}
+.create {
+  padding: 0.5px 10px;
+  color: #fff;
+  margin-right: 20px;
+  border: 2px solid white;
+  border-radius: 0.5rem;
+}
+.logo img {
+  /* border: 1px solid white; */
+  /* background-color: #fff; */
+  margin-left: 20px;
+  padding: 0px 1px;
+  width: 50px;
+  /* filter: invert(2); */
+  border-radius: 50%;
+}
+.create:hover {
+  color: rgb(182, 178, 174);
+  cursor: pointer;
+}
+.login {
+  color: #fff;
+  cursor: pointer;
+}
+.heading{
+  padding: 12px;
+  color: rgb(75, 75, 145);
+  text-shadow: #000;
+}
+
+.content .content-box{
+    border: 1px solid red;
+    padding: 12px;
+    display: grid;
+    grid-template-columns: 30% 50%;
+    gap: 2rem;
+}
+.content .content-box .filter{
+    border: 1px solid red;
+}
+.content .content-box .items{
+    border: 1px solid red;
+}
+.content .content-box .filter{
+    margin-left: 5rem;
+    padding: 1rem;
+}
+/* .content .content-box .items{
+    margin-left: 2rem; */
+/* } */
