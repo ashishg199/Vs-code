@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
 
 * {
   font-size: 1.2rem;
@@ -8,24 +10,31 @@
   font-family: "Baloo Bhai 2", cursive;
 }
 .nav {
-  background-color: rgb(189, 28, 28);
+  background-color: #ce1b1b;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 12px;
+  padding: 10px 8px;
+  box-shadow: 0 15px 13px rgba(115, 108, 108, 0.05);
+
+  
 }
-.nav .logo {
-  padding: 6px 12px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+
 .logo h1 {
-  color: #fff;
-  padding: 0 0.5rem;
+  color:rgb(242, 1, 1);
+  background-color: #fff;
+  padding: 0 0.7rem;
+  border-radius: 50%;
+  font-size: 33px;
+  font-weight: 600;
+  position: relative;
+  top: 3px;
+  left: 80px;
+  margin-left: 55px;
+  font: normal normal 600 33px/50px Poppins;
 }
 .account {
-  /* padding-left :35rem; */
+ 
   color: #fff;
   display: flex;
   justify-content: space-between;
@@ -39,15 +48,8 @@
   border: 2px solid white;
   border-radius: 0.5rem;
 }
-.logo img {
-  /* border: 1px solid white; */
-  /* background-color: #fff; */
-  margin-left: 20px;
-  padding: 0px 1px;
-  width: 50px;
-  /* filter: invert(2); */
-  border-radius: 50%;
-}
+
+
 .create:hover {
   color: rgb(182, 178, 174);
   cursor: pointer;
@@ -58,27 +60,158 @@
 }
 .heading{
   padding: 12px;
-  color: rgb(75, 75, 145);
+  color: #192F60;
   text-shadow: #000;
+  position: relative;
+  margin-left:100px;
+  font: normal normal bold 36px/55px Poppins;
+}
+h3{
+  /* font-size: larger  ; */
+  font: normal normal normal 25px/28px Poppins;
+  /* font: normal normal normal 14px/21px Poppins; */
+  color: #192F60;
+  font-weight: 600;
+
 }
 
+
+
 .content .content-box{
-    border: 1px solid red;
+  /* border: 1px solid #8C96AB; */
     padding: 12px;
     display: grid;
-    grid-template-columns: 30% 50%;
+    grid-template-columns: 28% 55% ;
+    /* grid-template-rows: 30%; */
     gap: 2rem;
+    opacity: 1;
+    /*  font: normal normal normal 14px/21px Poppins; */
+    background: #FBFBFB 0% 0% no-repeat padding-box; 
+    /* box-shadow:0 5px 9px rgb(120 108 108); */
+
+   
+    
+
+    
 }
 .content .content-box .filter{
-    border: 1px solid red;
+  margin-left: 5rem;
+  padding: 1rem;
+  box-shadow: 0px 3px 6px #00000029;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  width: 260px;
+  height: 682px;
+  font: normal normal normal 14px/21px Poppins;
+  box-shadow:0 5px 9px rgb(120 108 108);
+
+
 }
 .content .content-box .items{
-    border: 1px solid red;
+  justify-content: space-around;
+  box-shadow: 0px 3px 6px #00000029;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  width: 794px;
+  height: 291px;
+  box-shadow:0 5px 9px rgb(120 108 108);
+
+ 
+
+
+
+
 }
-.content .content-box .filter{
-    margin-left: 5rem;
-    padding: 1rem;
+
+.content .content-box .item2{
+  justify-content: space-around;
+  box-shadow: 0px 3px 6px #00000029;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  width: 794px;
+  height: 291px;
+  position: absolute;
+  top: 505px;
+left: 418px;
+box-shadow:0 5px 9px rgb(120 108 108);
+
+
 }
-/* .content .content-box .items{
-    margin-left: 2rem; */
-/* } */
+
+/* Pagentation section styling */
+.paginatation{
+  display: flex;
+  position: absolute;
+
+  left: 640px;
+  /* bottom: 2px; */
+  top: 116%;
+  justify-content: space-between;
+  width: 20%;
+  margin: 1rem auto;
+}
+.paginatation a, .paginatation span{
+  border: 1px solid rgb(55, 78, 104);
+  color: grey;
+  padding: .2rem .5rem;
+  margin: 0 12px ;
+  border-radius: .5rem;
+  font-size: 16px;
+
+
+}
+.paginatation span:hover{
+  background: grey;
+  color: #fff;
+}
+.paginatation a:hover{
+  background: grey;
+  color: #fff;
+}
+
+
+
+
+.content .content-box .items h2{
+  color: #192F60;
+  font-weight: 600;
+  font: normal normal bold 25px/28px Poppins;
+  position: absolute;
+  top: 210px;
+ left: 614px;
+ width: 330px;
+ /* height: 43px; */
+
+}
+.content .content-box .item2 h2{
+  color: #192F60;
+  font-weight: 600;
+  font: normal normal bold 25px/28px Poppins;
+  position: absolute;
+   top: 40px;
+  left: 200px;
+  /* width: 223px; */
+  /* height: 43px;  */
+
+}
+.content .content-box .items img{
+  position: absolute;
+  top: 200px;
+  left: 470px;
+  width: 120px;
+  height: 110px;
+  border-radius: 25px;
+}
+.content .content-box .item2 img{
+  position: absolute;
+  top: 30px;
+  left: 60px;
+  width: 120px;
+  height: 110px;
+  border-radius: 25px;
+}
+
+a{
+  border-radius: 20px;
+  border:#636F88 ;
+}
+
+
+
