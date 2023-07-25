@@ -1,0 +1,22 @@
+*{
+    font-style: italic;
+    
+}
+
+
+h1{
+    /* color: red; */
+    color: teal;
+    text-align: center;
+    text-decoration: solid teal;
+}
+p{
+    color: rgb(71, 206, 255);
+}
+button{
+    background-color: rgb(105, 173, 105);
+    color: brown;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
