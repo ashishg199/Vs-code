@@ -152,3 +152,24 @@ body{
 }
 /* quick_search styling */
 
+/* Responsive css */
+
+ @media only screen and (max-width:790px){
+    .header{
+        text-align: center;
+        width: 100%;
+    }
+    .header .login-box{
+        text-align: center;
+
+    }
+    .header .search_items .search_bars .location{
+        width: 200px;
+
+    }
+    .header .search_items .search_bars .restro{
+        width: 260px;
+    }
+
+} 
+
