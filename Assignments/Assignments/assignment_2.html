@@ -3,106 +3,103 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Assignment_2</title>
-    <link rel="stylesheet" href="assignment_2.css" />
+    <title>edureka-search-page</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="assignment_2.css" />
+    <!-- Font Awsome link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- Font Awsome link -->
   </head>
-  <body>
-    <div class="img"></div>
-    <div class="header">
-      <div class="login">
-        <a href="#">Login</a>
-        <span >Create an account</span>
-      </div>
-      <div class="logo">
-        <a href="#">e!</a>
-      </div>
 
-      <div class="searchbar">
-        <h2>Find the best restaurants, cafés, and bars</h2>
-        <div class="search">
+  <body>
+    <div class="header">
+      <div class="login-box">
+        <span>Login</span>
+        <button class="btn">Create an account</button>
+      </div>
+      <div class="search_items">
+        <span class="logo"> e! </span>
+        <h3>Find the best restaurants, cafes, and bars</h3>
+        <div class="search_bars">
           <input
             type="text"
-            name="1"
-            id="location"
+            class="location"
             placeholder="Please type a location"
           />
-
+          <i class="fa fa-search" aria-hidden="true"></i>
           <input
             type="text"
-            name="2"
-            id="Restro"
-            placeholder="Select the location"
+            class="restro"
+            placeholder="Search for restaurants"
           />
-          <i class="bi bi-search"></i>
-          <!-- <i class="bi bi-4-circle-fill"></i> -->
         </div>
       </div>
     </div>
-  
-    <div class="item-container">
-        <div class="q-search">
-          <h2 >Quick Searches</h2>
-          <p>Discover restaurants by type of meal</p>
-
+    <div class="quick-search-container">
+      <div class="quick_search">
+        <h2>Quick Searches</h2>
+        <p>Discover restaurants by type of meal</p>
+      </div>
+      <div class="meal-type">
+        <div class="meal">
+          <div class="item-container">
+            <img src="img/shutterstock_1154073754.png" alt="breakfast" />
+            <div class="item-content">
+              <span>Breakfast</span>
+              <p>Start your day with exclusive breakfast option</p>
+            </div>
+          </div>
+          <div class="item-container">
+            <img src="img/shutterstock_1130181932.png" alt="breakfast" />
+            <div class="item-content">
+              <span>Lunch</span>
+              <p>Start your day with exclusive breakfast option</p>
+            </div>
+          </div>
+          <div class="item-container">
+            <img src="img/shutterstock_351721442.png" alt="breakfast" />
+            <div class="item-content">
+              <span>Snacks</span>
+              <p>Start your day with exclusive breakfast option</p>
+            </div>
+          </div>
+          <div class="item-container">
+            <img src="img/shutterstock_476864884.png" alt="breakfast" />
+            <div class="item-content">
+              <span>Dinner</span>
+              <p>Start your day with exclusive breakfast option</p>
+            </div>
+          </div>
+          <div class="item-container">
+            <img src="img/shutterstock_305270834.png" alt="breakfast" />
+            <div class="item-content">
+              <span>Drink</span>
+              <p>Start your day with exclusive breakfast option</p>
+            </div>
+          </div>
+          <div class="item-container">
+            <img src="img/shutterstock_1304064250.png" alt="breakfast" />
+            <div class="item-content">
+              <span>Nightlife</span>
+              <p>Start your day with exclusive breakfast option</p>
+            </div>
+          </div>
         </div>
-
-        <div class="list-items">
-            <div class="container">
-                <img src="img/shutterstock_1304064250.png" alt="">
-                <div class="img-about">
-                    <h3>Breakfast</h3>
-                    <p>Start your day with exclusive breakfast options</p>
-                </div>
-            </div>
-            <div class="container">
-                <img src="img/shutterstock_1130181932.png" alt="">
-                <div class="img-about">
-                    <h3>Lunch</h3>
-                    <p>Start your day with exclusive breakfast options</p>
-                </div>
-            </div>
-            <div class="container">
-                <img src="img/shutterstock_1130181932.png" alt="">
-                <div class="img-about">
-                    <h3>Snacks</h3>
-                    <p>Start your day with exclusive breakfast options</p>
-                </div>
-            </div>
-            <div class="container">
-                <img src="img/shutterstock_1130181932.png" alt="">
-                <div class="img-about">
-                    <h3>Dinner</h3>
-                    <p>Start your day with exclusive breakfast options</p>
-                </div>
-            </div>
-            <div class="container">
-                <img src="img/shutterstock_1130181932.png" alt="">
-                <div class="img-about">
-                    <h3>Drinks</h3>
-                    <p>Start your day with exclusive breakfast options</p>
-                </div>
-            </div>
-            <div class="container">
-                <img src="img/shutterstock_1130181932.png" alt="">
-                <div class="img-about">
-                    <h3>Nightlife</h3>
-                    <p>Start your day with exclusive breakfast options</p>
-                </div>
-            </div>
-         
-            </div>
-        </div>
-
+      </div>
     </div>
 
-    <footer></footer>
-
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
