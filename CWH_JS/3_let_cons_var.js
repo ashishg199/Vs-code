@@ -3,10 +3,14 @@ console.log("let,var,const")
 // var b ="ashu"
 let a =45
 let b ="ashu"
+// b = "ravi" ;   we can do this...
 let c = null
 let d = undefined
 
-// 'LET' IS A BLOCK SCOPE VARIABLE
+// 'LET' IS A BLOCK SCOPE VARIABLE and it cannot redeclare.
+const author = "Ashish";
+// let author = Ravi   => Throws an error bcoz Constant  cannot be redeclare.
+
 
 console.log(b)  
 {
@@ -14,6 +18,9 @@ console.log(b)
     console.log(a)
 }
 console.log(a)
+
+
+
 
 
 
